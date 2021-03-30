@@ -1,0 +1,38 @@
+<HTML>
+<BODY>
+	<head>
+	<title> Nikayl 1st birthday </title>
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<style type="text/css">
+		.container { position: relative; }
+		.container img { display: block; }
+		.container .mapicon { position: absolute; bottom:284; left:250; }
+		.material-icons.md-dark { color: rgba(255, 0, 0, 0.80); font-size: large;}
+		.material-icons.md-dark:hover { color: rgba(255, 0, 0, 0.30); }
+		.mapicon { color: #a78f64;background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;font-size: large; border-radius: 5px;}      
+		.mapicon:hover { background-color: #79BB76 ; color: white}
+
+}
+    </style>
+	</head>	
+	
+	<div class="container">
+		<img src="baby_1st.jpg" alt="Bday card">
+		<button class="mapicon" onclick="myFunction()"><span class="material-icons md-dark">place</span>Click me!</button>
+	</div>
+<script>
+function myFunction() {
+
+//<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15845.80780360392!2d79.8640908!3d6.8362918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e1f8aad261caf11!2sLa%20Belle%20Epoque!5e0!3m2!1sen!2sse!4v1617085899490!5m2!1sen!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	
+  //test1 = "http://localhost:8080/test/document.html?"+obj.innerHTML; 
+  src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15845.80780360392!2d79.8640908!3d6.8362918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e1f8aad261caf11!2sLa%20Belle%20Epoque!5e0!3m2!1sen!2sse!4v1617085899490!5m2!1sen!2sse";
+     document.write('<iframe height="450"  allowTransparency="true" frameborder="0" scrolling="yes" style="width:100%;" src="'+src+'" type= "text/javascript"></iframe>');
+}
+</script>
+</BODY>
+
+</HTML>
